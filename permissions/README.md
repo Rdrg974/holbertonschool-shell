@@ -1,1 +1,2 @@
 su Betty
+whoami
