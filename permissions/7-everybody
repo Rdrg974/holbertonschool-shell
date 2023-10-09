@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 444 hello
+chmod 555 hello
