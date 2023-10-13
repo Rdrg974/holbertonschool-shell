@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -laR | find -type f,d -empty | cut -d/ -f2 | sort
+ls -laR | find -type f,d -empty -printf '%f\n' | sort
