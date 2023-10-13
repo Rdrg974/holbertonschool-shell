@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Rla | find -type f,d -name "*.gif" -printf '%f\n'
+ls -Rla | find -type f,d -name "*.gif" -printf '%f\n' | cud -d. -f1
