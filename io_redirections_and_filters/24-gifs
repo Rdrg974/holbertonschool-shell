@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -Rla | find -type f,d -name "*.gif" -printf '%f\n'
